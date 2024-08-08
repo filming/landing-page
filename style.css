@@ -108,7 +108,6 @@ a {
 .info-section__main-content {
     max-width: 80%;
     margin: 0 auto;
-    background-color: #F9FAF8;
     padding: 108px 0;
     display: flex;
     flex-direction: column;
@@ -158,7 +157,6 @@ a {
 .quote-section__main-section {
     max-width: 60%;
     margin: 0 auto;
-    background-color: #E5E7EB;
     padding: 108px 0;
     display: flex;
     flex-direction: column;
