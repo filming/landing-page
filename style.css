@@ -229,3 +229,21 @@ a {
     font-size: 18px;
     font-weight: bold;
 }
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer__main-content {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 36px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
