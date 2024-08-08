@@ -150,3 +150,31 @@ a {
     text-align: center;
     font-size: 18px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-section__main-section {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 112px 0;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote-section__text {
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-section__author {
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: right;
+}
