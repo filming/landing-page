@@ -20,7 +20,7 @@ a {
 
 .header {
     background-color: #1F2937;
-    padding: 16px;
+    padding: 16px 0;
 }
 
 .header__main-content {
