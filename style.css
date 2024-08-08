@@ -84,12 +84,12 @@ a {
 
 .hero-section__button {
     max-width: fit-content;
-    background-color: #3882F6;
-    color: #E5E7EB;
-    font-size: 18px;
     border-radius: 8px;
     border-style: none;
+    background-color: #3882F6;
     padding: 8px 28px;
+    color: #E5E7EB;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -108,8 +108,8 @@ a {
 .info-section__main-content {
     max-width: 80%;
     margin: 0 auto;
-    padding: 112px 0;
     background-color: #F9FAF8;
+    padding: 112px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,8 +158,8 @@ a {
 .quote-section__main-section {
     max-width: 60%;
     margin: 0 auto;
-    padding: 112px 0;
     background-color: #E5E7EB;
+    padding: 112px 0;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -180,16 +180,16 @@ a {
 }
 
 .cta-section {
-    padding: 112px 0;
     background-color: #F9FAF8;
+    padding: 112px 0;
 }
 
 .cta-section__main-content {
     max-width: 80%;
     margin: 0 auto;
     border-radius: 8px;
-    padding: 48px 0;
     background-color: #3882F6;
+    padding: 48px 0;
 }
 
 .cta-section__box {
@@ -223,8 +223,8 @@ a {
     height: fit-content;
     border: 2px #F9FAF8 solid;
     border-radius: 8px;
-    padding: 8px 36px;
     background-color: #3882F6;
+    padding: 8px 36px;
     color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
