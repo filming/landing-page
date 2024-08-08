@@ -20,13 +20,21 @@ a {
 
 .header {
     background-color: #1F2937;
+    padding: 16px;
+}
+
+.header__main-content {
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header__logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 800;
+    align-self: center;
 }
 
 .header__links {
