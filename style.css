@@ -81,14 +81,14 @@ a.header__sign-up {
     margin: 0 auto;
     padding: 108px 0;
     display: flex;
-    justify-content: space-between;   
-    gap: 32px;
+    gap: 36px;
 }
 
 .hero-section__content {
     max-width: 40%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 12px;
 }
 
@@ -120,12 +120,17 @@ a.header__sign-up {
 }
 
 .hero-section__image {
-    background-color: lightgrey;
+    max-width: 100%;
+    height: 500px;
+    border: 2px #F9FAF8 solid;
+    background-color: #1F2937;
+    padding: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex: 1;
+    flex: auto;
 }
+
 
 .info-section {
     background-color: #F9FAF8;
