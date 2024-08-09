@@ -172,7 +172,16 @@ a.header__sign-up {
     height: 190px;
     border: 4px #3882F6 solid;
     border-radius: 16px;
+    padding: 4px;
+    display: flex;
 }
+
+.info-section__card-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
 
 .info-section__card-text {
     max-width: 185px;
