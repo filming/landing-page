@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+.blue-text {
+    color: #3882F6;
+}
+
 .header {
     background-color: #1F2937;
     padding: 16px 0;
@@ -43,6 +47,7 @@ a {
 
 .header__links ul {
     display: flex;
+    align-items: center;
     gap: 32px;
 }
 
@@ -52,7 +57,19 @@ a {
 }
 
 .header__links a:hover {
-    color: #E5E7EB;
+    color: #F9FAF8;
+}
+
+a.header__sign-up {
+    border-radius: 16px;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.header__sign-up:hover {
+    background-color: #3881f69a;
 }
 
 .hero-section {
@@ -82,7 +99,7 @@ a {
 }
 
 .hero-section__text {
-    color: #e5e7ebc8;
+    color: #e5e7ebdc;
     font-size: 18px;
 }
 
@@ -92,7 +109,7 @@ a {
     border-style: none;
     background-color: #3882F6;
     padding: 8px 28px;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
 }
